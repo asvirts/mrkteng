@@ -1,13 +1,17 @@
 <script lang="ts">
 	import './layout.css';
 	import favicon from '$lib/assets/favicon.svg';
+	import { title } from '$lib/index';
 
 	let { children } = $props();
 
 	let currentYear = $state(new Date().getFullYear());
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<link rel="icon" href={favicon} />
+	<title>{title}</title>
+</svelte:head>
 
 <header class="absolute inset-x-0 top-0 z-50 mx-auto max-w-7xl">
 	<nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
