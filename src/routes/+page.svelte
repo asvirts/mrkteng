@@ -1,17 +1,5 @@
 <script>
-	let title = $state('Marketing, built like software.');
-
-	function changeTitle() {
-		title =
-			title === 'Marketing, built like software.'
-				? 'Software, built by marketing.'
-				: 'Marketing, built like software.';
-	}
-
-	$effect(() => {
-		const interval = setInterval(changeTitle, 3000);
-		return () => clearInterval(interval);
-	});
+	let title = $state('Marketing, engineered.');
 </script>
 
 <div class="bg-white">
@@ -21,7 +9,7 @@
 				<div
 					class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 				>
-					Marketing x Engineering. <a href="#" class="font-semibold text-green-600"
+					A community for technical marketers. <a href="#" class="font-semibold text-green-600"
 						><span aria-hidden="true" class="absolute inset-0"></span>Read more
 						<span aria-hidden="true">&rarr;</span></a
 					>
@@ -29,13 +17,13 @@
 			</div>
 			<div class="text-center">
 				<h1
-					class="text-5xl font-semibold tracking-tight text-balance text-gray-900 transition sm:text-7xl"
+					class="text-7xl font-semibold tracking-tight text-balance text-gray-900 transition sm:text-7xl"
 				>
 					{title}
 				</h1>
 				<p class="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-					Practical thinking on marketing systems, martech, and engineering tradeoffs — for people
-					who actually have to make it work.
+					A community of marketers, builders, and innovators applying data, technical thinking, and
+					system design for organizational growth.
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6">
 					<a
