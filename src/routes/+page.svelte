@@ -184,7 +184,7 @@
 						<p class="font-semibold text-gray-900">
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Michael Foster
+								Andrew Virts
 							</a>
 						</p>
 						<p class="text-gray-600">Co-Founder / CTO</p>
@@ -222,10 +222,10 @@
 						<p class="font-semibold text-gray-900">
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Lindsay Walton
+								Andrew Virts
 							</a>
 						</p>
-						<p class="text-gray-600">Front-end Developer</p>
+						<p class="text-gray-600">Co-Founder / CTO</p>
 					</div>
 				</div>
 			</article>
@@ -261,7 +261,7 @@
 						<p class="font-semibold text-gray-900">
 							<a href="#">
 								<span class="absolute inset-0"></span>
-								Tom Cook
+								Andrew Virts
 							</a>
 						</p>
 						<p class="text-gray-600">Director of Product</p>
