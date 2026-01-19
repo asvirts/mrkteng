@@ -9,7 +9,7 @@
 				<div
 					class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
 				>
-					A community for technical marketers. <a href="#" class="font-semibold text-green-600"
+					A community for technical marketers. <a href="/blog" class="font-semibold text-green-600"
 						><span aria-hidden="true" class="absolute inset-0"></span>Read more
 						<span aria-hidden="true">&rarr;</span></a
 					>
@@ -27,11 +27,11 @@
 				</p>
 				<div class="mt-10 flex items-center justify-center gap-x-6">
 					<a
-						href="#"
+						href="/tools"
 						class="rounded-md bg-green-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs transition-colors hover:bg-green-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"
 						>Get started</a
 					>
-					<a href="#" class="text-sm/6 font-semibold text-gray-900"
+					<a href="/about" class="text-sm/6 font-semibold text-gray-900"
 						>Learn more <span aria-hidden="true">→</span></a
 					>
 				</div>
@@ -156,14 +156,14 @@
 				<div class="flex items-center gap-x-4 text-xs">
 					<time datetime="2020-03-16" class="text-gray-500">Mar 16, 2020</time>
 					<a
-						href="#"
+						href="/blog"
 						class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
 						>Marketing</a
 					>
 				</div>
 				<div class="group relative grow">
 					<h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-						<a href="#">
+						<a href="/blog">
 							<span class="absolute inset-0"></span>
 							Boost your conversion rate
 						</a>
@@ -182,7 +182,7 @@
 					/>
 					<div class="text-sm/6">
 						<p class="font-semibold text-gray-900">
-							<a href="#">
+							<a href="/blog">
 								<span class="absolute inset-0"></span>
 								Andrew Virts
 							</a>
@@ -195,14 +195,14 @@
 				<div class="flex items-center gap-x-4 text-xs">
 					<time datetime="2020-03-10" class="text-gray-500">Mar 10, 2020</time>
 					<a
-						href="#"
+						href="/blog"
 						class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
 						>Sales</a
 					>
 				</div>
 				<div class="group relative grow">
 					<h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-						<a href="#">
+						<a href="/blog">
 							<span class="absolute inset-0"></span>
 							How to use search engine optimization to drive sales
 						</a>
@@ -220,7 +220,7 @@
 					/>
 					<div class="text-sm/6">
 						<p class="font-semibold text-gray-900">
-							<a href="#">
+							<a href="/blog">
 								<span class="absolute inset-0"></span>
 								Andrew Virts
 							</a>
@@ -233,14 +233,14 @@
 				<div class="flex items-center gap-x-4 text-xs">
 					<time datetime="2020-02-12" class="text-gray-500">Feb 12, 2020</time>
 					<a
-						href="#"
+						href="/blog"
 						class="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-gray-100"
 						>Business</a
 					>
 				</div>
 				<div class="group relative grow">
 					<h3 class="mt-3 text-lg/6 font-semibold text-gray-900 group-hover:text-gray-600">
-						<a href="#">
+						<a href="/blog">
 							<span class="absolute inset-0"></span>
 							Improve your customer experience
 						</a>
@@ -259,7 +259,7 @@
 					/>
 					<div class="text-sm/6">
 						<p class="font-semibold text-gray-900">
-							<a href="#">
+							<a href="/blog">
 								<span class="absolute inset-0"></span>
 								Andrew Virts
 							</a>

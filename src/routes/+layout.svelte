@@ -16,7 +16,7 @@
 <header class="absolute inset-x-0 top-0 z-50 mx-auto max-w-7xl">
 	<nav aria-label="Global" class="flex items-center justify-between p-6 lg:px-8">
 		<div class="flex lg:flex-1">
-			<a href="#" class="-m-1.5 p-1.5">
+			<a href="/" class="-m-1.5 p-1.5">
 				<span class="sr-only">MrktEng</span>
 				<img
 					src="https://shy3m4o231.ufs.sh/f/McaFsfFI80o6KL6S6abMAODcG8FkHL9lpQIWZTuv1t3Y7Sq4"
@@ -64,12 +64,12 @@
 	</nav>
 	<el-dialog>
 		<dialog id="mobile-menu" class="backdrop:bg-transparent lg:hidden">
-			<div tabindex="0" class="fixed inset-0 focus:outline-none">
+			<div class="fixed inset-0 focus:outline-none">
 				<el-dialog-panel
 					class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
 				>
 					<div class="flex items-center justify-between">
-						<a href="#" class="-m-1.5 p-1.5">
+						<a href="/" class="-m-1.5 p-1.5">
 							<span class="sr-only">Your Company</span>
 							<img
 								src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
@@ -99,31 +99,16 @@
 					</div>
 					<div class="mt-6 flow-root">
 						<div class="-my-6 divide-y divide-gray-500/10">
-							<div class="space-y-2 py-6">
+							<div class="py-6">
 								<a
-									href="#"
-									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Product</a
-								>
-								<a
-									href="#"
-									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Features</a
-								>
-								<a
-									href="#"
-									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
-									>Marketplace</a
-								>
-								<a
-									href="#"
+									href="/about"
 									class="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Company</a
 								>
 							</div>
 							<div class="py-6">
 								<a
-									href="#"
+									href="/login"
 									class="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
 									>Log in</a
 								>
@@ -180,19 +165,21 @@
 				class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:mt-0 lg:justify-end lg:gap-12"
 			>
 				<li>
-					<a class="text-gray-700 transition hover:text-gray-700/75" href="#"> About </a>
+					<a class="text-gray-700 transition hover:text-gray-700/75" href="/about"> About </a>
 				</li>
 
 				<li>
-					<a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Blog </a>
+					<a class="text-gray-700 transition hover:text-gray-700/75" href="/blog"> Blog </a>
 				</li>
 
 				<li>
-					<a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Tools </a>
+					<a class="text-gray-700 transition hover:text-gray-700/75" href="/tools"> Tools </a>
 				</li>
 
 				<li>
-					<a class="text-gray-700 transition hover:text-gray-700/75" href="#"> Playbooks </a>
+					<a class="text-gray-700 transition hover:text-gray-700/75" href="/playbooks">
+						Playbooks
+					</a>
 				</li>
 			</ul>
 		</div>
